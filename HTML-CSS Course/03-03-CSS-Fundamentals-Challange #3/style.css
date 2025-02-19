@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.sale-icon {
+  color: #fff;
+  background-color: red;
+  position: absolute;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  top: -15px;
+  left: -35px;
+}
+.product {
+  border: 5px solid black;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #cacaca;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+}
+.shipping {
+  color: #444;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.color {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #000;
+  display: inline-block;
+}
+
+.color-blue {
+  background-color: #2441e6;
+}
+
+.color-red {
+  background-color: #e62424;
+}
+
+.color-yellow {
+  background-color: #eed709;
+}
+
+.color-green {
+  background-color: #09ee3b;
+}
+
+.color-brown {
+  background-color: #753c06;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: black; /* Sets the background color of the button */
+  color: white; /* Sets the text color inside the button */
+  padding: 10px 20px; /* Adds space around the text (10px top/bottom, 20px left/right) */
+  font-size: 16px; /* Sets the size of the button text */
+  border: none; /* Removes any default border */
+  cursor: pointer; /* Changes the mouse cursor to a pointer when hovering */
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black; /* Sets the text color inside the button */
+  padding: 10px 20px; /* Adds space around the text (10px top/bottom, 20px left/right) */
+  font-size: 16px; /* Sets the size of the button text */
+  border: none; /* Removes any default border */
+  cursor: pointer; /* Changes the mouse cursor to a pointer when hovering */
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.more-info:hover,
+.more-info:active {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}

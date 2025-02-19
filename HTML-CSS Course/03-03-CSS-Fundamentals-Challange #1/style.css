@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: 5px solid black;
+  padding: 5px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #cacaca;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+}
+.shipping-info {
+  color: #444;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.product-details {
+  list-style: square;
+}
+
+button {
+  background-color: black; /* Sets the background color of the button */
+  color: white; /* Sets the text color inside the button */
+  padding: 10px 20px; /* Adds space around the text (10px top/bottom, 20px left/right) */
+  font-size: 16px; /* Sets the size of the button text */
+  border: none; /* Removes any default border */
+  cursor: pointer; /* Changes the mouse cursor to a pointer when hovering */
+}
+
+button:hover {
+  background-color: white;
+  color: black; /* Sets the text color inside the button */
+  padding: 10px 20px; /* Adds space around the text (10px top/bottom, 20px left/right) */
+  font-size: 16px; /* Sets the size of the button text */
+  border: none; /* Removes any default border */
+  cursor: pointer; /* Changes the mouse cursor to a pointer when hovering */
+}
+
+a:link,
+a:visited {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover,
+a:active {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
